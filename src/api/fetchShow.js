@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import axios from "axios";
 
 export const fetchShow = () => {
@@ -8,8 +7,6 @@ export const fetchShow = () => {
     )
     .then(res => {
       return res;
-      //   setShow(res.data);
-      //   setSeasons(formatSeasons(res.data._embedded.episodes));
     });
 };
 
